@@ -1,0 +1,1 @@
+puts (1..100).to_a.map {|n| n*n}.inject(:+) - (1..100).to_a.inject(:+)*(1..100).to_a.inject(:+)
